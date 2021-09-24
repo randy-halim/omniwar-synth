@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": ["es2015", "es2018.promise"],
+		"declaration": false,
+		"removeComments": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"noImplicitThis": false,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"paths": {
+			"omniwar-synth/*": ["./*"]
+		},
+		"outDir": "./dist",
+		"types": ["@scriptcraft/types", "@types/jasmine"]
+	},
+	"exclude": ["node_modules/**/*"]
+}
